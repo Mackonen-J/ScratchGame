@@ -249,8 +249,8 @@ const createResultGrid = () => {
         grid.addChild(resultGrid);
 
         // Center on the screen
-        grid.x = (screen.width - grid.width) / 3;
-        grid.y = (screen.height - grid.height) / 3;
+        grid.x = 424;
+        grid.y = 200;
 
         //Loop through gameResult json files and find 3 matching numbers and change color
         var k;
