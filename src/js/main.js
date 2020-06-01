@@ -21,7 +21,7 @@ const addBuyBtn = () => {
 }
 
 //Adding scratched background 
-var unscrachtedBg = PIXI.Sprite.from('res/unScratched.png');
+var unscrachtedBg = PIXI.Sprite.from('res/unscratched.png');
 function addUnscratchedBackground() {
     if (scene1 && buyBtn.visible === false) {
         unscrachtedBg.anchor.set(0);
@@ -373,7 +373,7 @@ function App() {
             },
             {
                 name: 'unscratched',
-                path: '../res/unScratched.png'
+                path: '../res/unscratched.png'
             },
             {
                 name: 'gamelogo',
